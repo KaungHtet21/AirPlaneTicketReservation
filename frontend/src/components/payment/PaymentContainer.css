@@ -1,0 +1,10 @@
+.payment_container {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+}
+
+input {
+    padding: 10px;
+}

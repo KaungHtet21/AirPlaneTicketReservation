@@ -1,0 +1,57 @@
+/* @font-face {
+    font-family: Imported;
+    src: url("../../font/Merienda-ExtraBold.ttf")
+} */
+
+.nav_items_container {
+    width: 97%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 20px;
+    left: 50%;
+    border-radius: 50px;
+    /* background: #24265D; */
+    background-image: linear-gradient(to right, #073591, #0d49bf);
+    position: fixed;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+
+.nav_heading {
+    font-family: Imported;
+    font-size: 24px;
+    color: white;
+}
+
+.nav_heading:hover {
+    cursor: pointer;
+}
+
+.login_icon {
+    /* color: white; */
+    height: 25px;
+    width: 25px;
+    padding-top: 4px;
+    color: white;
+}
+
+.nav_kae_program {
+    font-family: Imported;
+}
+
+.nav_kae_program:hover {
+    cursor: pointer;
+}
+
+.login_btn {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login_btn:hover {
+    background-color: rgba(255, 255, 255, 0.598);
+}
+

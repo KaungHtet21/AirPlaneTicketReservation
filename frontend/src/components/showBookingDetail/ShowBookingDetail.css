@@ -1,0 +1,24 @@
+.booking_toplv_container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 20px;
+}
+
+.booking_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.showing_detail_btn {
+    display: flex;
+    align-items: center;
+}
+
+.showing_detail_btn:hover {
+    cursor: pointer;
+}

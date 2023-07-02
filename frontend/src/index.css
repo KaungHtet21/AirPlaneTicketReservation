@@ -1,0 +1,27 @@
+/* @font-face {
+  font-family: Imported;
+  src: url("../src/font/Merienda-ExtraBold.ttf")
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to right,#403a21, #c48e16); */
+  /* background: #eeeff3; */
+  background: #FFFFF0;
+  /* background: #00172D ;
+  color: white; */
+}
+
+/* h2 {
+  font-family: Imported;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

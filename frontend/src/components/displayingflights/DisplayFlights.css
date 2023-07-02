@@ -1,0 +1,194 @@
+.sort_flight_btn {
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 10px;
+    background: white;
+}
+
+.available_flights_list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.available_flights_container {
+    display: flex;
+    width: 86%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    /* background-image: linear-gradient(to right, #48b1bf, #c48e16); */
+    background: #5f7ea0   ;
+}
+
+.available_flights_left_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 70%;
+}
+
+.available_flights_left_upper_container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_container {
+    width: 150px;
+    height: 150px;
+    margin-top: -24px;
+    margin-left: -40px;
+}
+
+.baggage_text_container {
+    display: flex;
+    justify-items: center;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.available_flights_right_container {
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.price_container span:nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price_container span:nth-child(2) {
+    font-weight: 350;
+    font-size: 14px;
+    font-style: italic;
+    color: black;
+}
+
+.sort_flight_btn:hover {
+    border-color: black !important;
+    cursor: pointer;
+}
+
+.sort_flight_btn select {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.dropdown_list {
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    list-style: none;
+    background: white;
+    border: 1px solid black;
+}
+
+.dropdown_list .active {
+    background: #dee7ef;
+}
+
+.dropdown_list li:hover {
+    cursor: pointer;
+    background-color: #f2f3f4;
+}
+
+.flight_icon {
+    color: rgb(5, 56, 118);
+}
+
+.marker_icon {
+    color: rgb(5, 56, 118);
+}
+
+.passenger_count_container {
+    border-radius: 10px;
+    padding: 15px;
+    flex: 50%;
+    max-width: 30%;
+    background: white;
+    transition: 0.3s;
+    animation: ease-in;
+}
+
+.passenger_count_container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.passenger_count {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.passenger_type {
+    padding: 3px;
+}
+
+.passenger_controls {
+    display: flex;
+    gap: 10px;
+}
+
+.blue_controls_btn {
+    background: #065a9e;
+    color: white;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.red_controls_btn {
+    background: rgb(65, 138, 240);
+    color: white;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.blue_controls_btn:hover {
+    cursor: pointer;
+    background: #3181c2;
+}
+
+.red_controls_btn:hover {
+    cursor: pointer;
+    background: rgb(91, 163, 240);
+}
+
+.passengers_selected_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #065a9e;
+}
+
+.not_available_flight_txt {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

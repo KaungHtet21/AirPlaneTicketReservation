@@ -1,0 +1,52 @@
+.passenger_swiper_container {
+    width: 100%;
+}
+
+.passenger_slide_container {
+    width: 100%;
+    border: solid 1px black;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.passenger_confirm_btn {
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background: #1E3D69;
+}
+
+.passenger_confirm_btn:hover {
+    cursor: pointer;
+}
+
+.confirmed_passenger {
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background: rgb(28, 185, 46);
+}
+
+.alert_msg {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateX(100%);
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: transform 0.3s;
+    z-index: 99999;
+}
+
+.alert_msg.slide_in {
+    transform: translateX(0);
+}
+
+.alert_msg.slide_out {
+    transform: translateX(100%);
+}

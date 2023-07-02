@@ -1,0 +1,9 @@
+.footer_social_icon {
+    size: 1.5rem;
+    color: black;
+}
+
+.footer_social_icon:hover {
+    cursor: pointer;
+    color: #1E3D69;
+}
